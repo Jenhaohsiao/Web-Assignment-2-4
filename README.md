@@ -1,4 +1,4 @@
-# web-Home-Work-6
+# Web-Home-Work-6
 Google Maps, media queries
 
 + View the page on http://sushimototoronto.com/contact-us/
@@ -7,3 +7,4 @@ Google Maps, media queries
 + Style request only. The image and color could be different as this picture.
 + Free pictures resouce: https://unsplash.com/;
 + View real web: https://jenhaohsiao.github.io/web-home-work6/
+
