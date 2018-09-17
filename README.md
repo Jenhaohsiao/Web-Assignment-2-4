@@ -6,5 +6,5 @@ Google Maps, media queries
 + Make website top navbar, syle. and Page “Contact Us” and Page “about” content.
 + Style request only. The image and color could be different as this picture.
 + Free pictures resouce: https://unsplash.com/;
-+ View real web: https://jenhaohsiao.github.io/web-home-work6/
++ View real web: https://jenhaohsiao.github.io/web-home-work-6/
 
