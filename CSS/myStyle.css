@@ -1,0 +1,63 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Yellowtail', cursive; */
+
+#sushi_web_body {
+    background-color: #d7dcde;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.body_range {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 71px;
+    /* padding: 10px 50px; */
+}
+
+.navbar::after {
+    clear: both;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 24px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px;
+    /* Used in this example to enable scrolling */
+}
+
+#about_hero_image {
+    margin-top: 71px;
+    background-image: url("../SRC/Images/about_page_hero.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 476px;
+}
