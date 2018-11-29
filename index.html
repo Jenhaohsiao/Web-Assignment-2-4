@@ -6,14 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Web Home Work 6</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Setup CSS file link and Google font -->
     <link rel="stylesheet" type="text/css" media="screen" href="./CSS/myStyle.css" />
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat:100,200,300,400,500,700,900|Open+Sans:700|Yellowtail" rel="stylesheet">
 
-    <!-- Set Google map API and Link to JavaScript file -->
-    <script src="./JavaScript/myJs.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAa81eFvaPPnQdueHgIxFoZPhIn7qrIi5o&callback=myMap"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat:100,200,300,400,500,700,900|Open+Sans:700|Yellowtail" rel="stylesheet">
 
 
 </head>
@@ -32,7 +27,7 @@
     </div>
 
     <div id="about_hero_image">
-        <p class="hero_section_title">About us</p>
+        <h1>About us</h1>
     </div>
 
     <div class="main body_range">
@@ -44,14 +39,19 @@
         <p>Some text some text some text some text..</p>
         <p>Some text some text some text some text..</p>
 
-
-        <!-- Google Map display here -->
         <div id="googleMap" style="width:100%;height:400px;"></div>
 
-    </div>
+        <script>
+            function myMap() {
+                var mapProp = {
+                    center: new google.maps.LatLng(51.508742, -0.120850),
+                    zoom: 17,
+                };
+                var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+            }
+        </script>
 
-
-
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAa81eFvaPPnQdueHgIxFoZPhIn7qrIi5o&callback=myMap"></script>
 
 
 </body>
