@@ -61,3 +61,11 @@ font-family: 'Yellowtail', cursive; */
     background-position: center;
     height: 476px;
 }
+
+.hero_section_title {
+    color: #ffffff;
+    font-size: 50px;
+    text-shadow: 2px 2px #000000;
+    text-align: center;
+    padding: 200px 0 0 0;
+}
